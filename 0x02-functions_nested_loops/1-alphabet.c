@@ -2,14 +2,9 @@
 #include "main.h"
 /**
  *
- *  * main - Prints the alphabet in lowercase, except for q and e.
- *
- *   *
- *
- *    * Return: Always 0.
- *
- *     */
-int main(void)
+ *   - Prints the alphabet in lowercase, except for q and e.
+ */
+int print_alphabet(void)
 {
 	char i;
 
