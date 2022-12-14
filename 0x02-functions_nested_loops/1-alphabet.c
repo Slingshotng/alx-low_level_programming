@@ -1,18 +1,13 @@
-/*
- *
- *  * File: 1-alphabet.c
- *
- *   */
-
 #include "main.h"
-
-
 /**
  *
- *  * print_alphabet - prints the alphabet in lowercase, followed by a new line.
+ *  * main - Prints the alphabet in lowercase, except for q and e.
  *
- *   */
-
+ *   *
+ *
+ *    * Return: Always 0.
+ *
+ *     */
 int main(void)
 {
 	char i:
@@ -21,4 +16,6 @@ int main(void)
 		_putchar(i);
 
 	_putchar('\n');
+
+	return (0);
 }
