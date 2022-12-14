@@ -4,7 +4,7 @@
  *
  *   - Prints the alphabet in lowercase, except for q and e.
  */
-int print_alphabet(void)
+void print_alphabet(void)
 {
 	char i;
 
